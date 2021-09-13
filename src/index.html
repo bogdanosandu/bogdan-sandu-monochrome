@@ -3,12 +3,33 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thread Affair</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Monochrome</title>
 </head>
 
 <body>
-  <h1>Hello world</h1>
+  <header class="header container">
+    <% include html/header/header-main.html %>
+    <% include html/header/header-nav.html %>
+  </header>
+
+  <main class="content">
+    <header class="content-header">
+      <% include html/home/home-banner.html %>
+    </header>
+
+    <main class="content-main">
+
+    </main>
+  </main>
+
+  <footer class="footer">
+    <% include html/footer/footer-main.html %>
+    <% include html/footer/footer-bottom.html %>
+  </footer>
 </body>
 
 </html>
