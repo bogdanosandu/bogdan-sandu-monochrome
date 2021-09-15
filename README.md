@@ -1,2 +1,2 @@
-# bogdan-sandu-monochrome
+# Monochrome
 Proiect personal Monochrome Mobile-First Responsive
