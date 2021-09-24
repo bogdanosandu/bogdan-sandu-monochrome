@@ -20,8 +20,11 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 // variables
 @import './variables';
 
+// start project
+
 body {
   font-family: 'Playfair Display', sans-serif;
-  color: $gray-primary;
+  color: $brand-primary;
   font-weight: bold;
+  font-size: 16px;
 }
