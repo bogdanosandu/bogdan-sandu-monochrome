@@ -1,30 +1,32 @@
-// font-awesome
+// @import '~bootstrap/scss/bootstrap';
+
 $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/brands';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
 
-// fonts
-@import './fonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
 
-// bootstrap
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-utilities';
-@import '~bootstrap/scss/images';
-@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap-grid.scss';
+@import '~bootstrap/scss/bootstrap-reboot.scss';
+@import '~bootstrap/scss/bootstrap-utilities.scss';
 
 // reset
 @import './reset';
 
+//fonts
+@import './fonts';
+
 // variables
-@import './variables';
+@import './variabile';
 
 // start project
+@import './shared/index';
+@import './catalog/index';
+@import './home/index';
 
 body {
-  font-family: 'Playfair Display', sans-serif;
-  color: $brand-primary;
-  font-weight: bold;
+  font-family: 'Playfair Display', serif;
   font-size: 16px;
+  color: $brand-primary;
 }
